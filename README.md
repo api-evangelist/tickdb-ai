@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-tickdb-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tickdb.ai/
+TickDB provides real-time market data via REST and WebSocket APIs for stocks, forex, metals, indices, China and Hong Kong futures, and crypto. The platform offers comprehensive documentation, pricing plans, and developer resources, including a quick‑start guide, API reference, changelog, and support channels. Users can access data through the production API at https://api.tickdb.ai and explore detailed specs in OpenAPI and AsyncAPI formats. TickDB emphasizes security with a dedicated security page and privacy policy, and maintains an active blog and GitHub repository for community engagement.
+
+**Areas:** Company · Finance · Market-Data · Real-time · API
+
+## tickdb-ai on APIs.io
+
+Everything profiled for tickdb-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tickdb-ai/](https://apis.io/providers/tickdb-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [TickDB Market Data API](https://apis.io/apis/tickdb-ai/tickdb-market-data-api/) — Real-time market data API for stocks, forex, metals, indices, China/HK futures, and crypto.
+- [tickdb-ai Account API](https://apis.io/apis/tickdb-ai/tickdb-ai-account-api/) — The account API from tickdb-ai — 1 operation(s) for account.
+- [tickdb-ai Fundamentals Capital Actions API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-capital-actions-api/) — The fundamentals-capital-actions API from tickdb-ai — 4 operation(s) for fundamentals-capital-actions.
+- [tickdb-ai Fundamentals Company API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-company-api/) — The fundamentals-company API from tickdb-ai — 2 operation(s) for fundamentals-company.
+- [tickdb-ai Fundamentals Events API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-events-api/) — The fundamentals-events API from tickdb-ai — 8 operation(s) for fundamentals-events.
+- [tickdb-ai Fundamentals Financials API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-financials-api/) — The fundamentals-financials API from tickdb-ai — 5 operation(s) for fundamentals-financials.
+- [tickdb-ai Fundamentals Holders API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-holders-api/) — The fundamentals-holders API from tickdb-ai — 4 operation(s) for fundamentals-holders.
+- [tickdb-ai Fundamentals Valuation Industry API](https://apis.io/apis/tickdb-ai/tickdb-ai-fundamentals-valuation-industry-api/) — The fundamentals-valuation-industry API from tickdb-ai — 6 operation(s) for fundamentals-valuation-industry.
+- [tickdb-ai Market API](https://apis.io/apis/tickdb-ai/tickdb-ai-market-api/) — The Market API from tickdb-ai — 15 operation(s) for market.
+- [tickdb-ai Symbols API](https://apis.io/apis/tickdb-ai/tickdb-ai-symbols-api/) — The Symbols API from tickdb-ai — 1 operation(s) for symbols.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tickdb Ai Agentic Access](https://apis.io/agentic-access/tickdb-ai/tickdb-ai-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tickdb Ai Context](https://apis.io/jsonld/tickdb-ai/tickdb-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [tickdb-ai API Rules](https://apis.io/rules/tickdb-ai/tickdb-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tickdb Ai Authentication](https://apis.io/security/tickdb-ai/tickdb-ai-authentication/)
+- [Tickdb Ai Domain Security](https://apis.io/security/tickdb-ai/tickdb-ai-domain-security/)
+- [Tickdb Ai Trust Center](https://apis.io/security/tickdb-ai/tickdb-ai-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Tickdb Ai Scopes](https://apis.io/scopes/tickdb-ai/tickdb-ai-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Tickdb Ai Rate Limits](https://apis.io/rate-limits/tickdb-ai/tickdb-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tickdb.ai/)
+- [Documentation](https://docs.tickdb.ai/zh-Hans/index)
+- [Getting started](https://docs.tickdb.ai/zh-Hans/quick-start)
+- [API reference](https://docs.tickdb.ai)
+- [Pricing](https://tickdb.ai/pricing)
+- [Support](https://tickdb.ai/help)
+- [Changelog](https://docs.tickdb.ai/zh-Hans/release-notes)
+- [Blog](https://blog.tickdb.ai/)
+- [Security](https://tickdb.ai/security)
+- [Compliance](https://tickdb.ai/security)
+- [Terms of service](https://tickdb.ai/terms)
+- [Privacy policy](https://tickdb.ai/privacy)
+- [GitHub](https://github.com/TickDB/tickdb-unified-realtime-marketdata-api)
+
+## API Evangelist rating
+
+**Kin Score 64.1** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.2 |
+| Contract governance | 70.9 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 60.5 |
+
+**Agent readiness 55.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 37.0** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tickdb-ai/](https://apis.io/providers/tickdb-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for tickdb-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tickdb-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
